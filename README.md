@@ -15,6 +15,9 @@ This project assumes you have at least Python 3.6 or later and NodeJS/npm instal
 - [Django](https://www.djangoproject.com/) - Python web framework.
 - [Fontawesome](https://fontawesome.com/) - Icons.
 - [Bootstrap](https://getbootstrap.com/) - CSS framework for styling.
+- [Sendgrid](https://sendgrid.com/) - A mailing service used for the contact form.
+- [Animate](https://daneden.github.io/animate.css/) - Animations.
+- [Counterup](https://github.com/bfintal/Counter-Up) - jQuery plugin used for the facts section.
 
 ## Authors
 

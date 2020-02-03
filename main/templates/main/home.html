@@ -430,12 +430,16 @@
               </div> {% endcomment %}
 
               <div>
-                <i class="fa fa-envelope"></i>
+                <a href="mailto:Foundnation18@gmail.com">
+                  <i class="fa fa-envelope"></i>
+                </a>
                 <p>Foundnation18@gmail.com</p>
               </div>
 
               <div>
-                <i class="fa fa-phone"></i>
+                <a href="tel:3366181608">
+                  <i class="fa fa-phone"></i>
+                </a>
                 <p>(336) 618-1608</p>
               </div>
             </div>
@@ -486,7 +490,7 @@
                 {% for field in form.visible_fields %}
                   <div class="form-group">
                     {{ field.errors }}
-                    <label>{{ field.label_tag }}</label>
+                    {% comment %} <label>{{ field.label_tag }}</label> {% endcomment %}
                     <p>{{ field }}</p>
                   </div>
                 {% endfor %}
