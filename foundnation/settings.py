@@ -28,7 +28,11 @@ SECRET_KEY = os.getenv('FOUNDNATION_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+if DEBUG is False:
+    ALLOWED_HOSTS = ['127.0.0.1']
+
+if DEBUG:
+    ALLOWED_HOSTS = []
 
 
 # Application definition
