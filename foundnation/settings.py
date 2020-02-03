@@ -133,8 +133,7 @@ STATICFILES_DIRS = [
 
 # EMAIL_BACKEND = 'sendgrid_backend.SendgridBackend'
 SENDGRID_API_KEY = os.getenv('SENDGRID_API_KEY')
-# SENDGRID_SANDBOX_MODE_IN_DEBUG = True
-# SENDGRID_ECHO_TO_STDOUT = True
+# SENDGRID_SANDBOX_MODE_IN_DEBUG = False
 
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'apikey'
