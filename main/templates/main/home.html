@@ -153,7 +153,7 @@
             <div class="box">
               <div class="icon"><i class="far fa-calendar-check"></i></a></div>
               <h4 class="title">Networking Events</a></h4>
-              <p class="description">Follow Foundnation on Instagram to attend the next Pay It Forward Empowerment Networking Social event.</p>
+              <p class="description">Follow Foundnation on <a href="https://www.instagram.com/foundnation_18/" target="_blank" rel="noopener noreferrer">Instagram</a> to attend the next Pay It Forward Empowerment Networking Social event.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
@@ -176,7 +176,7 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
             <h3 class="cta-title">Ready to learn more?</h3>
-            <p class="cta-text">Great! We'd love to have you. Our scholarships are based around the community gathered. Learn how you can utilize the Pay It Forward scholarship movement by contacting us.</p>
+            <p class="cta-text">Great! We'd love to have you. Our scholarships are based around the community gathering together. Learn how you can utilize the Pay It Forward scholarship movement by contacting us.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#contact">Contact Us</a>
@@ -187,12 +187,12 @@
     </section><!-- #call-to-action -->
 
     <!--==========================
-      Portfolio Section
+      Gallery Section
     ============================-->
     <section id="portfolio">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Portfolio</h3>
+          <h3 class="section-title">Gallery</h3>
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
         <div class="row">
@@ -210,22 +210,22 @@
 
         <div class="row" id="portfolio-wrapper">
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="{% static 'img/portfolio/app1.jpg' %}" alt="">
-              <div class="details">
-                <h4>App 1</h4>
+            <a href="static/img/fn_portfolio/img_08302.jpg">
+              <img src="{% static 'img/fn_portfolio/img_08302.jpg' %}" alt="">
+              {% comment %} <div class="details">
+                <h4>Click to view!</h4>
                 <span>Alored dono par</span>
-              </div>
+              </div> {% endcomment %}
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="{% static 'img/portfolio/web2.jpg' %}" alt="">
-              <div class="details">
+            <a href="static/img/fn_portfolio/img_0832.jpg">
+              <img src="{% static 'img/fn_portfolio/img_0832.jpg' %}" alt="">
+              {% comment %} <div class="details">
                 <h4>Web 2</h4>
                 <span>Alored dono par</span>
-              </div>
+              </div> {% endcomment %}
             </a>
           </div>
 
@@ -249,7 +249,7 @@
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+          {% comment %} <div class="col-lg-3 col-md-6 portfolio-item filter-card">
             <a href="">
               <img src="{% static 'img/portfolio/card2.jpg' %}" alt="">
               <div class="details">
@@ -327,12 +327,12 @@
                 <span>Alored dono par</span>
               </div>
             </a>
-          </div>
+          </div> {% endcomment %}
 
         </div>
 
       </div>
-    </section><!-- #portfolio -->
+    </section><!-- #gallery -->
 
     <!--==========================
       Team Section
@@ -445,10 +445,8 @@
             </div>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
               <a href="https://www.instagram.com/foundnation_18/" class="instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:Foundnation18@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
             </div>
 
           </div>

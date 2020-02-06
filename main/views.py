@@ -12,7 +12,7 @@ def homepage(request):
             subject = f'Message from {form.cleaned_data["name"]} - {form.cleaned_data["subject"]}'
             message = form.cleaned_data['message']
             sender = form.cleaned_data['email']
-            recipients = ['neyenew583@hiwave.org']
+            recipients = ['ciromi9543@eigoemail.com']
             try:
                 send_mail(subject, message, sender,
                           recipients, fail_silently=True)
